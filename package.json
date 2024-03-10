@@ -5,7 +5,7 @@
     "node": ">=10.4.0"
   },
   "scripts": {
-    "start": "start-storybook",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && start-storybook",
     "test": "jest"
   },
   "dependencies": {
