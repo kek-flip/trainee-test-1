@@ -24,6 +24,7 @@ export default class extends React.Component<any> {
 		const {
 			items,
 			transform,
+			locator,
 		} = this.props;
 
 		return (
@@ -33,6 +34,7 @@ export default class extends React.Component<any> {
 						item={item}
 						index={index}
 						transform={transform}
+						locator={locator}
 						key={index}
 					/>
 				))}

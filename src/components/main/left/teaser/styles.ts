@@ -49,7 +49,7 @@ export default locator => {
 			'font-size': locator.calcString(11, 'px'),
 		},
 
-		'.mimic_left .teaser:hover .picture img': {
+		'.mimic_left .teaser:hover .picture .picture__content': {
 			'transform': 'scale(1.02)',
 		},
 

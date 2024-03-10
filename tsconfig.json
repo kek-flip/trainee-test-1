@@ -10,6 +10,7 @@
     "paths": {
       "@/*": ["src/*"],
       "smokescreen/*": ["libs/smokescreen/*"]
-    }
+    },
+    "types": ["jest"]
   }
 }
