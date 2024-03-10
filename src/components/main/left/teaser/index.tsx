@@ -4,7 +4,7 @@ import Block from '../../../base/Block';
 import Image from '../../../base/Image';
 import SmokeText from '../../../base/SmokeText';
 
-export default ({item, index, transform}) => {
+export default ({item, index, transform, locator}) => {
 	const {
 		body,
 		domain,
@@ -43,6 +43,8 @@ export default ({item, index, transform}) => {
 						src={image_src}
 						width={image_width}
 						height={image_height}
+						locator={locator}
+						className={transform('picture__content')}
 					/>
 				</Block>
 			)}

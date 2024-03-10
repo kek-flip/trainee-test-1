@@ -21,7 +21,7 @@ export default locator => {
 			'overflow': 'hidden',
 		},
 
-		'.mimic .picture img': {
+		'.mimic .picture .picture__content': {
 			'display': 'block',
 			'max-width': locator.calcString(100, '%'),
 			'max-height': locator.calcString(100, '%'),
